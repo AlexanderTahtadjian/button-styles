@@ -67,7 +67,3 @@ div {
   border-width: 3px;
   border-radius: 8px;
 }
-
-.btn-1, .btn-subtle, .btn-ghost a:hover {
-  background-color: #666;
-}
