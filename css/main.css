@@ -11,9 +11,12 @@ div {
   padding: .5rem;
   text-align: center;
 }
- a {
+a {
    text-decoration: none;
  }
+a:hover {
+  background-color: #666;
+}
 
 .btn {
   font-size: 1.125rem;
