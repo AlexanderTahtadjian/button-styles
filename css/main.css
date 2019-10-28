@@ -16,13 +16,22 @@ a {
    text-decoration: none;
  }
 
-a:hover {
-  background-color: #666;
-  color: #fff;
-}
-
 .btn {
   font-size: 1.125rem;
+  color: #fff;
+  font-weight: normal;
+  max-width: 20em;
+  padding: .4em .75em .3em;
+  background-color: #333;
+  border-width: 3px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #333;
+}
+
+.btn:hover {
+  background-color: #666;
+  color: #fff;
 }
 
 .btn-small {
@@ -33,46 +42,21 @@ a:hover {
   font-size: 1.5rem;
 }
 
-.btn-1 {
-  color: #fff;
-  font-weight: normal;
-  max-width: 20em;
-  padding: .4em .75em .3em;
-  background-color: #333;
-  border-width: 3px;
-  border-radius: 8px;
-}
-
 .btn-subtle {
-  color: #fff;
-  font-weight: normal;
-  max-width: 20em;
-  padding: .4em .75em .3em;
   background-color: #ccc;
-  border-width: 3px;
-  border-radius: 8px;
+  border-color: #ccc;
 }
 
 .btn-ghost {
   color: #000;
-  font-weight: normal;
-  max-width: 20em;
-  padding: .4em .75em .3em;
   background-color: #fff;
   border-color: #000;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 8px;
 }
 
 .btn-warning {
   color: #fff;
-  font-weight: normal;
-  max-width: 20em;
-  padding: .4em .75em .3em;
   background-color: #f33;
-  border-width: 3px;
-  border-radius: 8px;
+  border-color: #f33;
 }
 
 .btn-warning:hover {
